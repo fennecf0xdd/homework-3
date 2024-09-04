@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Layout Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        background-color: #e7bb75;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .card {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 250px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+      }
+
+      .card-title {
+        font-size: medium;
+        margin: 15px 0;
+      }
+
+      .card-description {
+        font-size: medium;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/4587992/pexels-photo-4587992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Dog Image"
+        />
+        <h2 class="card-title">Картка 1</h2>
+        <p class="card-description">Картка собачки - догі-догі</p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/4588052/pexels-photo-4588052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Dog Image"
+        />
+        <h2 class="card-title">Картка 2</h2>
+        <p class="card-description">Картка собачки - догі-догі</p>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/4608234/pexels-photo-4608234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+          alt="Dog Image"
+        />
+        <h2 class="card-title">Картка 3</h2>
+        <p class="card-description">Картка собачки - догі-догі</p>
+      </div>
+    </div>
+  </body>
+</html>
